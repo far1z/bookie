@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased font-sans text-black bg-white;
+    margin: 0;
+    padding: 0;
+  }
+}

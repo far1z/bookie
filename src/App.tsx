@@ -20,22 +20,22 @@ const IPhoneMockup = () => {
   
   const conversations = [
     [
-      { id: 1, type: 'sent', text: "Bet $50 on Chiefs to win Super Bowl" },
-      { id: 2, type: 'received', text: "Chiefs Moneyline. Bet $50 to win $95?" },
+      { id: 1, type: 'sent', text: "Bet $50 on Seahawks to win Super Bowl" },
+      { id: 2, type: 'received', text: "Seahawks Futures. Odds are +2500. Bet $50 to win $1300?" },
       { id: 3, type: 'sent', text: "Lock it in" },
       { id: 4, type: 'received', text: "Confirmed. Ticket #4421." }
     ],
     [
       { id: 1, type: 'sent', text: "Will Trump invade Greenland?" },
-      { id: 2, type: 'received', text: "Market: Trump invades Greenland by 2026. Bet $10 to win $500?" },
+      { id: 2, type: 'received', text: "Market: Trump invades Greenland by end of 2026. Odds are +5000. Bet $10 to win $510?" },
       { id: 3, type: 'sent', text: "Bet $10" },
       { id: 4, type: 'received', text: "Confirmed. Ticket #8829." }
     ],
     [
-      { id: 1, type: 'sent', text: "Bet $20 on Bitcoin hitting 100k" },
-      { id: 2, type: 'received', text: "BTC > $100k in 2025. Bet $20 to win $120?" },
-      { id: 3, type: 'sent', text: "Yes" },
-      { id: 4, type: 'received', text: "Confirmed. Ticket #9912." }
+      { id: 1, type: 'sent', text: "Who's gonna win the Oscars?" },
+      { id: 2, type: 'received', text: "Oppenheimer is favored (-500). Poor Things is +800. Want to see full odds?" },
+      { id: 3, type: 'sent', text: "Bet $20 on Poor Things" },
+      { id: 4, type: 'received', text: "Bet $20 to win $180. Confirm?" }
     ]
   ] as const;
 

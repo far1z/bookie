@@ -159,7 +159,7 @@ export default function BookieLanding() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl text-gray-600 max-w-lg leading-relaxed"
             >
-              The first SMS-based sportsbook. Bet on Sports, Politics, or Pop Culture in plain English. Instant payouts to your wallet.
+              The fastest and simplest way to make a bet. Bet on Sports, Politics, or Pop Culture in plain English. Instant payouts to your wallet.
             </motion.p>
             
             <motion.div 
